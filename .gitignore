@@ -1,0 +1,18 @@
+## System and generated files
+.idea
+.DS_Store
+.sass-cache
+.swp
+
+## Directories
+log/
+dist/
+node_modules/
+bower_components/
+
+## Files
+result.xml
+npm-debug.log
+package-lock.json
+yarn.lock
+creatures.zip

@@ -1,0 +1,27 @@
+{
+  "extends": ["prettier", "plugin:flowtype/recommended"],
+  "plugins": ["prettier", "flowtype"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "tabWidth": 2,
+        "trailingComma": "es5"
+      }
+    ],
+    "indent": [2, 2],
+    "semi": [1, "always"],
+    "no-var": 2,
+    "prefer-const": 2,
+    "no-unused-vars": [1, { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
